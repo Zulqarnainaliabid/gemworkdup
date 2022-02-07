@@ -1,0 +1,142 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          margin: 0%;
+          padding: 0%;
+}
+
+p {
+  margin: 0%;
+  padding: 0%;
+}
+
+h4 {
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 0rem !important;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.header_link {
+  cursor: pointer;
+  padding: 20px;
+}
+
+.header_link:hover {
+  background-color: white;
+  color: black;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Main_heading {
+  border-bottom: 4px solid;
+  padding-bottom: 1px;
+}
+
+.Inner_heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+.content_box {
+  border: 4px solid;
+  position: relative;
+  padding: 23px;
+}
+
+.Box_heading {
+  background-color: white;
+  display: inline;
+  font-size: 30px;
+  position: absolute;
+  top: -28px;
+  left: 21px;
+  font-weight: 600;
+  padding: 0px 15px 1px 15px;
+}
+
+.box_body {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+  letter-spacing: 2px;
+}
+
+.footer {
+  background-color: #E5E7EB;
+  padding: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer_body {
+  color: black;
+  text-align: center;
+}
+
+.Flex_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+  letter-spacing: 2px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.DeploayAdress {
+  text-overflow: ellipsis;
+}
+button#dropdownMenuButton1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown-item:hover {
+  color:black !important;
+  background-color: rgba(59,130,246,0.5) !important;
+}
+/*# sourceMappingURL=index.css.map */
